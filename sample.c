@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main(void)
 {
-    printf("%d+%d=%d\n", 100, 200, 300);
-    printf("合計は%d円です", 300);
+    printf("%d\n", 10+3);
+    printf("%d\n", 10-3);
+    printf("%d\n", 10/3);
+    printf("%d\n", 10*3);
+    printf("%d\n", 10+3*6-7);
     return 0;
 }
