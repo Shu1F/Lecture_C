@@ -1,10 +1,12 @@
 #include <stdio.h>
 int main(void)
 {
-    printf("%d\n", 10+3);
-    printf("%d\n", 10-3);
-    printf("%d\n", 10/3);
-    printf("%d\n", 10*3);
-    printf("%d\n", 10+3*6-7);
-    return 0;
+    // int apple;
+    // int orange;
+    // apple = 5;
+    // orange = 10;
+
+    int apple = 10;
+    int orange = 5;
+    printf("%d", apple + orange);
 }
