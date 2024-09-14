@@ -1,9 +1,16 @@
 #include <stdio.h>
 int main(void)
 {
-    int apple;
-    apple = 10;
-    apple = apple + 5;
-    printf("%d", apple);
+    int apple = 10;
+    printf("%d\n", apple);
+
+    apple ++;
+    printf("%d\n", apple);
+
+    apple ++;
+    printf("%d\n", apple);
+    
+    apple --;
+    printf("%d\n", apple);
     return 0;
 }
