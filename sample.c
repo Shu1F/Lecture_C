@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-    double suuti;
-    scanf("%lf", &suuti);
-    printf("入力された値は%lfです。", suuti);
-
+    int apple = 10;
+    if (apple-10) printf("リンゴの数は0個ではありません");
     return 0;
 }
