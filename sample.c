@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main(void)
 {
-    int year = 1;
-    double money = 1000000;
-    while (money < 100000000) {
-        year++;
-        money = (money + 600000) * 1.05;
+    int i = 10;
+    while(i < 5) {
+        printf("whileぶんです");
     }
+    do {
+        printf ("do while文です");
+    } while (i < 5);
     
-    printf("%d年目：%f 円となり、資産が１億円を超えます", year, money);
     return 0;
 }
-// 2:023:46/
+// /
