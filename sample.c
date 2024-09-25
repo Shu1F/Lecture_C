@@ -1,14 +1,11 @@
 #include <stdio.h>
-int main(void)
-{
-    int i = 10;
-    while(i < 5) {
-        printf("whileぶんです");
-    }
-    do {
-        printf ("do while文です");
-    } while (i < 5);
-    
+int keisan (int kingaku);
+int main (void)  {
+    keisan(1000);
     return 0;
 }
-// /
+
+int keisan (int kingaku) {
+    printf("%f", kingaku * 1.1);
+    return 0;
+}
