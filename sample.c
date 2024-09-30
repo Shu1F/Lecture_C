@@ -1,11 +1,24 @@
 #include <stdio.h>
-int keisan (int kingaku);
-int main (void)  {
-    keisan(1000);
+int fruits(int apple);
+int main(void)
+{
+    int hoge;
+    hoge = fruits(5);
+    if (hoge < 3000)
+    {
+        printf("予算に収まりました");
+    }
+    else
+    {
+        ("予算オーバーです");
+    }
+    printf("%d", hoge);
     return 0;
 }
 
-int keisan (int kingaku) {
-    printf("%f", kingaku * 1.1);
-    return 0;
+int fruits(int apple)
+{
+    int sum;
+    sum = apple * 300;
+    return sum;
 }
