@@ -1,8 +1,8 @@
 #include <stdio.h>
-int apple = 10;
 int main(void)
 {
-    int apple = 5;
-    printf("%d", apple);
+    int array[10];
+    array[5] = 15;
+    printf("%d\n", array[5]);
     return 0;
 }
